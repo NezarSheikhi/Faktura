@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Faktura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="print_area">
+    <header>
+        <div>
+            <div>
+                <img class="photo" src="logo.png" alt="logo">
+            </div>
+        <div class="rubrik">
+            <p>Faktura</p>
+            <strong class="aa">Fakturanummer:<input type="number" class="num" placeholder="Skriv Fakturanummer"></strong> <br>
+            <strong class="aa">Fakturadatum:<input type="date" class="num" name="tid" id="lag" placeholder="Datum"></strong> 
+        </div>
+    </header>
+    <main>
+        <div id="compinfo" class="compinfo">
+            <p>Wellbefy AB</p>
+            <p>Bredgatan 11</p>
+            <p>252 25 Helsingborg</p>
+        </div>
+        <div class="referens">
+            <p>Var referens: Nezar Sheikhi</p>
+            <p>Er referens: Wellbefy AB</p>
+        </div>
+        <br>
+        <div class="recinfo"> 
+            <p>Leveransdatum: <input type="date"></p> <br>
+            <p>Betalningsvillkor: <input type="text" placeholder="30 dagar"></p><br>
+            <p>Förfallodatum: <input type="date"></p><br>
+            <p>Dröjsmålsränta: <input type="text" placeholder="8%+ referensränta"></p>
+        </div>
+        <div id="tabbox">
+            <table  class="finfo">
+                <tr>
+                    <th class="spec">Specifikation</th>
+                    <th>Antal</th>
+                    <th>Enhet</th>
+                    <th>a-pris</th>
+                    <th>Samma</th>
+                </tr>
+                <tr>
+                    <td class="spec">Design av webbsida</td>
+                    <td>1</td>
+                    <td>st</td>
+                    <td>400 kr</td>
+                    <td>400 kr</td>
+                </tr>
+                <tr>
+                        <td class="spec">Programvara</td>
+                        <td>2</td>
+                        <td>st</td>
+                        <td>350 kr</td>
+                        <td>350 kr</td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td class="spec">Samma</td>
+                    <td colspan=3></td>
+                    <td>750 Kr</td>
+                </tr>
+                <tr>
+                    <td class="spec"> Moms(25 %)</td>
+                    <td colspan=3></td>
+                    <td colspan="4">250 kr</td>
+                </tr>
+                <tr>
+                    <td class="spec"><b>Att Betala</b></td>
+                    <td colspan=3></td>
+                    <td colspan="4"><b>1000 kr</b></td>
+                </tr>
+            </table>
+            <div class="space"></div>
+            <hr>
+            <br>
+        </div>
+        <div>
+            <table class="bottom">
+                <tr>
+                    <th class="bottom">Adress:</th>
+                    <th class="bottom">Telefo</th>
+                    <th class="bottom">E-post och webb:</th>
+                    <th class="bottom">VAT-nr:</th>
+                    <th class="bottom">Bankgiro:1234-5678</th>
+                </tr>
+                <tr>
+                    <td class="data">IT-Företaget</td>
+                    <td class="data">042222902</td>
+                    <td class="data">nezar.sheikhi@icloud.com</td>
+                    <td class="data">SE5006100000201</td>
+                    <td class="data"></td>
+                </tr>
+                <tr>
+                    <td class="data">Fyrverkaregatan 10</td>
+                    <td class="data">0046 760 638 919</td>
+                    <td class="data">www.nezar-sheikhi.com</td>
+                    <td class="data"></td>
+                    <td class="data"></td>
+                </tr>
+                <tr>
+                    <td class="data">25461 Helsingborg</td>
+                    <td class="data"></td>
+                    <td class="data"> info@ns.se</td>
+                    <td class="data"></td>
+                    <td class="data">Godkänd för F-skatt</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p><b>3476538928571 #</b></p>
+        <p><b>1000 00</b></p>
+        <p><b>2 > </b></p>
+        <p><b>98264763 # 13#</b></p>
+    </footer>
+</body>
+</html>

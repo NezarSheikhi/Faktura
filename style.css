@@ -1,0 +1,106 @@
+/* print area style */
+
+.print_area {
+    width: 900px;
+    margin: 1em;
+    padding-left: 10%;
+}
+
+/* header style */
+
+
+.photo {
+    width: 280px;
+    height: 200px;
+   clear: both;
+   float: left;
+}
+.rubrik {
+    float: right;
+    text-align: right;
+    
+}
+.rubrik > p {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aa {
+    padding-right: 14px;
+}
+.num {
+    text-align: left;
+    border:solid thin black;
+}
+input {
+    width: 50% auto;
+    position: relative;
+    left: 10px;
+    border: unset;
+}
+/* main stayle */
+
+
+.compinfo {
+    float: right;
+    padding: 50px;
+    margin-left: 80vmin;
+}
+#compinfo > p {
+    margin: 10px;
+}
+.referens {
+    float: left;
+    clear: right;
+    
+}
+.referens p {
+    margin-top: -10px;
+}
+.recinfo {
+    margin-left: 10px;
+    padding: 40px 0px 70px 0px;
+    clear: both;
+
+}
+.recinfo > p {
+    margin: -8px;
+}
+.finfo {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    height: 25px;
+    text-align: center;
+}
+.spec {
+    text-align: left;
+    padding-left: 5px;
+}
+.space {
+    padding: 200px 0px 50px 0px;
+}
+.bottom {
+    border: none;
+    border-collapse: unset;
+    padding-right: 120px;
+    margin-top: -10px;
+    width: max-content;
+}
+.data {
+    border: none;
+    border-collapse: unset;
+    width: max-content;
+    text-align: left;
+}
+
+/* footer */
+footer p {
+    margin:0;
+    padding:0;
+    margin-left: 16%;
+    display: inline-block;
+}
