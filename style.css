@@ -18,25 +18,33 @@
 .rubrik {
     float: right;
     text-align: right;
-    
-}
-.rubrik > p {
-    font-size: 35px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
+    padding-right: 20px;
+}
+.rr1 {
+    clear: both;
+    float: right;
 }
 .aa {
     padding-right: 14px;
+    text-align: left;
+    margin-right: 5px;
+    margin-top: -20px;
 }
 .num {
+    float: right;
     text-align: left;
-    border:solid thin black;
+    margin-right: 1px;
+    
 }
 input {
     width: 50% auto;
     position: relative;
     left: 10px;
-    border: unset;
+
 }
+
 /* main stayle */
 
 
@@ -47,6 +55,18 @@ input {
 }
 #compinfo > p {
     margin: 10px;
+}
+.p1 {
+    padding-left: 11px;
+}
+.p2 {
+    padding-left: 1px;
+}
+.p3 {
+    padding-left: 18px;;
+}
+.p4 {
+    padding-left: 14px;
 }
 .referens {
     float: left;
