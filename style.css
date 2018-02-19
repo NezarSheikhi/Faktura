@@ -75,6 +75,7 @@ table, th, td {
 td {
     height: 25px;
     text-align: center;
+    border: none;
 }
 .spec {
     text-align: left;
